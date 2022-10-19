@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="B4">
+  <link name="B4">
+    <inertial>
+      <mass value="0.05000000000000001" />
+      <inertia ixx="3.499765204106481e-05" ixy="-2.6559476254693867e-09" ixz="9.394875303839459e-09" iyy="3.5909187985576613e-05" iyz="1.0130894354335507e-08" izz="3.4976387502617876e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/B4/B4.obj" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/B4/B4.obj" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

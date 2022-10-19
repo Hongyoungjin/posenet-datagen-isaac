@@ -1,0 +1,39 @@
+simulation:
+  physics_engine: PHYSX
+  num_threads : 16
+  use_gpu_pipeline : False
+  use_gpu: False
+  compute_device_id: 0
+  graphics_device_id: 0
+  num_envs: 100
+  FILE_ZERO_PADDING_NUM: 5
+  num_iters: 500
+  dt: 0.01
+  render_freq: 1000
+
+  target_dataset: egad_eval_set_urdf
+  target_object: E2
+
+  object_rand_pose_range: 0.1
+  gravity: [0,0,-9.81]
+
+  min_stable_pose_prob: 0.01
+  max_num_stable_pose: 50
+
+
+
+  camera:
+    ZividTwo:
+      fx: 1783.0662841796875
+      fy: 1782.3050537109375
+      cx: 980
+      cy: 610.2705688476562
+
+      camera_pose:
+        z: 70
+        r: 13.5 # deg
+
+
+
+
+

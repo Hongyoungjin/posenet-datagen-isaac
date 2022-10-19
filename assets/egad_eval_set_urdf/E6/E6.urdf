@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="E6">
+  <link name="E6">
+    <inertial>
+      <mass value="0.05" />
+      <inertia ixx="2.5501423238687016e-05" ixy="-6.118458943628299e-09" ixz="-8.669982381634033e-09" iyy="2.1750232536727406e-05" iyz="2.4118279501211643e-09" izz="2.3199766503122597e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/E6/E6.obj" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/E6/E6.obj" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

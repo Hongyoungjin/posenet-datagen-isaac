@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="G2">
+  <link name="G2">
+    <inertial>
+      <mass value="0.05" />
+      <inertia ixx="1.753606295471811e-05" ixy="-7.73828004243202e-09" ixz="7.861375324907583e-10" iyy="1.0566417188243568e-05" iyz="-4.436138882394113e-09" izz="2.637633086676157e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/G2/G2.obj" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="assets/egad_eval_set_urdf/G2/G2.obj" scale="1 1 1" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
