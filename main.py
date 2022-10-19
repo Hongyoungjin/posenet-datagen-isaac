@@ -419,9 +419,13 @@ class DataGenEnv(object):
     
 if __name__ == '__main__':
     env = DataGenEnv()
-
+    with open(config_file,"r") as f:
+        cfg = yaml.safe_load(f)
+        
+    sim_cfg = cfg["simulation"]
+    num_envs = sim_cfg['num_envs']
     for i in range(env.num_iters):
         start_time = time.time()
         # env.visualize_camera_axis()
         env.step(i)
-        print('step: {} | Num of data: {}  | time: {:.3f}'.format(i, i*100, time.time() - start_time))
+        print('step: {} | Num of data: {}  | time: {:.3f}'.format(i, i*num_envs, time.time() - start_time))
