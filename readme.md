@@ -41,4 +41,5 @@ If you wan to save the output data, add "--save_results" option.
 ```bash
 python3 main.py --headless --save_results
 ```
-![](https://github.com/posenet-datagen-isaac/그림1.gif)
+![image](https://github.com/Hongyoungjin/posenet-datagen-isaac/assets/69029439/92330c06-3558-483e-b8bd-784e6330d45c)
+
